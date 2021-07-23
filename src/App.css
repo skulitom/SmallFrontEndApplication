@@ -7,6 +7,23 @@
   pointer-events: none;
 }
 
+p {
+    color: #ffffff;
+}
+
+#headerItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#chartMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
